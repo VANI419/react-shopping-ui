@@ -1,0 +1,17 @@
+.formSection {
+  background-color: rgb(226, 137, 137);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.inputDiv input {
+ width: 15rem;
+ height: 2rem;
+}
+.submitBtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: rgb(11, 11, 98);
+}
