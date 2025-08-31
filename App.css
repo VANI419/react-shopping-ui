@@ -1,17 +1,66 @@
-.formSection {
-  background-color: rgb(226, 137, 137);
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.headerSection{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(68, 34, 219);
+  color: white;
+  padding: 20px;
 }
-.inputDiv input {
- width: 15rem;
- height: 2rem;
+
+.Center ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
 }
-.submitBtn {
-  padding: 5px 10px;
+.tittle{
+  font-size: 1rem;
+}
+.left{
+  flex: 2;
+ 
+}
+.Center{
+  flex: 4;
+  
+}
+.search{
+  flex: 2;
+  
+}
+.search input{
+  padding: 10px;
+  width: 20rem;
   border-radius: 5px;
-  margin-top: 5px;
-  background-color: rgb(11, 11, 98);
+  margin-left: -150px;
+ } 
+.Right{
+  flex: 4;
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.bannerBox{
+  margin: 10px 0px;
+}
+.bannerBox img{
+  width: 100%;
+}
+
+.menImages{
+  display: flex;
+  gap: 10px;
+}
+.menImages img{
+  width: 220px;
+  height: 220px;
 }
